@@ -7,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class VirtualScrollComponent implements OnInit {
+  personas = Array( 500 ).fill( 1 );
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
